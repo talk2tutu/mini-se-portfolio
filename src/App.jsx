@@ -5,22 +5,33 @@ function App() {
 
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <img
-            src="/images/profile.png"
-            alt="Mini M S"
-            className="w-40 h-40 rounded-full mx-auto mb-6 object-cover shadow-lg"
-          />
+         <img
+          src="/images/profile.png"
+          alt="Mini M S"
+          className="w-48 h-48 rounded-full mx-auto mb-6 object-contain bg-white shadow-xl border-4 border-white"
+/>
 
           <h1 className="text-5xl font-bold text-gray-900">
             Mini M S
           </h1>
 
           <p className="text-2xl text-gray-600 mt-3">
-            Software Engineering Mentor | Web Developer
+            Software Engineering Mentor | Full-Stack Web Developer
           </p>
 
           <p className="text-gray-500 mt-2">
-            Auckland, New Zealand | Permanent Resident
+           Auckland, New Zealand | Permanent Resident
+          </p>
+
+          <p className="mt-2">
+          <a
+            href="https://mini-se-portfolio.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:text-blue-800 hover:underline"
+          >
+           https://mini-se-portfolio.vercel.app
+          </a>
           </p>
 
           <a
@@ -62,6 +73,12 @@ function App() {
             <div>SQL Server</div>
             <div>REST APIs</div>
             <div>Git & GitHub</div>
+            <div>Tailwind CSS</div>
+            <div>AWS</div>
+            <div>Database Design</div>
+            <div>Query Optimisation</div>
+            <div>Agile & Scrum</div>
+            <div>CI/CD</div>
           </div>
         </section>
 
@@ -205,6 +222,16 @@ function App() {
     >
       GitHub Profile
     </a>
+    <p className="mt-4">
+    <a
+    href="https://mini-se-portfolio.vercel.app"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block text-blue-600 hover:text-blue-800"
+    >
+    Portfolio Website
+    </a>
+  </p>
   </div>
 </section>
       </div>
