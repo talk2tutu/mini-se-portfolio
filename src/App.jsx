@@ -128,7 +128,7 @@ function App() {
       </p>
 
       <p className="text-gray-700">
-        <strong>Technologies:</strong> React.js, TypeScript, Tailwind CSS,
+        <strong>Technologies:</strong> React.js,C#.Net, TypeScript, Tailwind CSS,
         JavaScript, GitHub
       </p>
     </div>
@@ -139,7 +139,7 @@ function App() {
       </h3>
 
       <p className="text-gray-600 mb-2">
-        <strong>Role:</strong> Frontend Developer / Web Developer
+        <strong>Role:</strong> Web Developer
       </p>
 
       <p className="text-gray-700 mb-3">
@@ -148,7 +148,7 @@ function App() {
       </p>
 
       <p className="text-gray-700">
-        <strong>Technologies:</strong> React.js, TypeScript, Tailwind CSS,
+        <strong>Technologies:</strong> React.js,C#.Net, TypeScript, Tailwind CSS,
         REST APIs, SQL Server
       </p>
     </div>
@@ -169,7 +169,7 @@ function App() {
 
       <p className="text-gray-700">
         <strong>Technologies:</strong> PostgreSQL, SQL Server, GitHub,
-        React.js, ASP.NET Core, Jira, Notion
+        React.js, ASP.NET Core,C#.Net, Jira, Notion
       </p>
     </div>
 
