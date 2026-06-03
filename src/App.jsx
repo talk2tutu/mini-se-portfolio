@@ -16,7 +16,7 @@ function App() {
           </h1>
 
           <p className="text-2xl text-gray-600 mt-3">
-            Software Engineering Mentor | Full-Stack Web Developer
+            Software Engineering Mentor |  Web Developer
           </p>
 
           <p className="text-gray-500 mt-2">
