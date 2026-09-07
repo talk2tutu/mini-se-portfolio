@@ -1,4 +1,5 @@
 import TaskManager from "./Components/TaskManager";
+import Certifications from './Components/Certifications.jsx';
 import { useState } from "react";
 function App() {
 
@@ -41,7 +42,7 @@ return ( <div className="min-h-screen bg-gray-100"> <div className="max-w-6xl mx
           https://mini-se-portfolio.vercel.app
         </a>
       </p>
-
+<Certifications />
       <a
         href="/Mini_MS_Software_Developer_CV_NZ.pdf"
         download
@@ -129,6 +130,28 @@ return ( <div className="min-h-screen bg-gray-100"> <div className="max-w-6xl mx
     {/* Projects */}
     <section className="bg-white rounded-xl shadow p-8 mb-8">
       <h2 className="text-3xl font-bold mb-6">Projects</h2>
+      
+        <div className="border rounded-lg p-5 bg-green-50">
+      <h3 className="text-xl font-bold mb-2">
+        Trust Attendance Application
+      </h3>
+
+      <p className="text-gray-700 mb-3">
+        Designed and developed a full-stack staff attendance system for the
+        Trust, enabling employees to clock in and out with automatic
+        late/on-time status detection and admin visibility into daily
+        attendance across all staff.
+      </p>
+
+      <p className="text-gray-600 mb-2">
+        <strong>Role:</strong> Full-Stack Developer
+      </p>
+
+      <p className="text-gray-700 mb-3">
+        React.js, TypeScript, C#/.NET (ASP.NET Core Web API), Entity
+        Framework Core, PostgreSQL, JWT Authentication
+      </p>
+    </div>
 
       <div className="grid md:grid-cols-2 gap-6">
 

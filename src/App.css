@@ -181,4 +181,58 @@
     right: 0;
     border-right-color: var(--border);
   }
+  .certifications {
+  margin: 32px 0;
+}
+
+.cert-card {
+  display: flex;
+  gap: 20px;
+  padding: 16px;
+  border-radius: 8px;
+  background: var(--accent-bg);
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+
+  &:hover {
+    border-color: var(--accent-border);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
+}
+
+.cert-image {
+  width: 220px;
+  border-radius: 6px;
+  flex-shrink: 0;
+
+  @media (max-width: 1024px) {
+    width: 100%;
+  }
+}
+
+.cert-details {
+  h3 {
+    color: var(--text-h);
+    margin-bottom: 4px;
+  }
+
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .cert-date {
+    font-size: 14px;
+    opacity: 0.8;
+    margin: 4px 0 8px;
+  }
+}
 }
